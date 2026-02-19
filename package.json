@@ -1,0 +1,21 @@
+{
+    "name": "cert-manager-root",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "backend"
+    ],
+    "scripts": {
+        "dev": "concurrently \"npm run dev --workspace=frontend\" \"npm run dev --workspace=backend\"",
+        "install:all": "npm install && npm install -w frontend && npm install -w backend"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.0"
+    },
+    "dependencies": {
+        "@tailwindcss/postcss": "^4.2.0",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.2.0"
+    }
+}
