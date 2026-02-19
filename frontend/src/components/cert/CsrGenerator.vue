@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
-import { FileKey, Download, Copy, RefreshCcw, AlertTriangle } from 'lucide-vue-next'
+import { FileKey, Download, Copy, RefreshCcw } from 'lucide-vue-next'
 import { useCrypto, type CSRData } from '../../composables/useCrypto'
 
 const { generateCSR, isGenerating, error } = useCrypto()
