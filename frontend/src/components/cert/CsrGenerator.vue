@@ -162,14 +162,6 @@ const countries = ['US', 'GB', 'CA', 'AU', 'DE', 'FR', 'IN', 'JP', 'CN', 'BR'] /
           <Download class="w-5 h-5 text-green-500" />
           Generated Files
         </h3>
-        
-        <div class="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700/50 rounded-lg p-3 mb-4 flex items-start gap-3">
-          <AlertTriangle class="w-5 h-5 text-amber-600 dark:text-amber-500 shrink-0 mt-0.5" />
-          <div class="text-sm text-amber-800 dark:text-amber-200">
-            <strong>Security Warning:</strong> Your private key is generated locally in your browser. Do not share it with anyone. Save it securely immediately.
-          </div>
-        </div>
-
         <div class="space-y-4 flex-1">
           <!-- CSR -->
           <div>

@@ -108,16 +108,6 @@ onMounted(() => {
           {{ item.name }}
         </RouterLink>
       </nav>
-      <div class="p-4 border-t border-slate-800">
-        <button 
-          @click="toggleTheme" 
-          class="flex items-center gap-3 px-4 py-2 w-full text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors text-sm font-medium"
-        >
-          <Sun v-if="!isDark" class="w-5 h-5" />
-          <Moon v-else class="w-5 h-5" />
-          {{ isDark ? 'Light Mode' : 'Dark Mode' }}
-        </button>
-      </div>
       <div class="p-4 border-t border-slate-800 text-xs text-slate-500 text-center">
         &copy; {{ new Date().getFullYear() }} Cert Manager
         <br>Secure & Self-Hosted
